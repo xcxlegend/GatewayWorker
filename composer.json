@@ -1,0 +1,21 @@
+{
+    "name": "legend/gatewayworker",
+    "description": "workerman/gatewayworker frame",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Legend.Xie",
+            "email": "xcx_legender@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3",
+        "workerman/workerman": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "GatewayWorker\\": "src"
+        }
+    }
+}
